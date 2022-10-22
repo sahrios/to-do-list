@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.png">
+</head>
+
+<body>
+    <header>
+        <h1>Lista de tarefas da Sarah</h1>
+    </header>
+
+    <main>
+        <input type= text onfocus="this.value =''" id="nome-tarefa" >
+
+        <button onclick="adicionarTarefa()">
+            Criar tarefa
+        </button>
+
+        <button onclick="excluirTarefa()">
+            Excluir tarefa
+        </button>
+
+        <div id="lista-tarefas"></div>
+        <script src="./index.js"></script>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>

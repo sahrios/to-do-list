@@ -3,12 +3,12 @@ body{
     padding:0;
     box-sizing: border-box;
     background-image: url(img/your-name.png);
-    background-position:bottom center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size:100% auto;
     height: 100%;
     background-origin: padding-box;
-    background-attachment: fixed;
+    background-attachment:fixed;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:#f7e6fa ;  
